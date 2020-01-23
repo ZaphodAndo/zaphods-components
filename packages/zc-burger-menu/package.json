@@ -1,0 +1,40 @@
+{
+  "name": "zc-burger-menu",
+  "version": "0.0.1",
+  "description": "A reusable search bar web component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/zc-burger-menu/zc-burger-menu.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "pubGithub": "npm config set registry https://npm.pkg.github.com/@zaphodando && npm publish",
+    "pubNpm": "npm config set registry https://registry.npmjs.org/ && npm publish"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.8.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://github.com/ZaphodAndo/zaphods-components.git",
+    "directory": "packages/zc-burger-menu"
+  },
+  "keywords": [
+    "web component",
+    "search-bar",
+    "stencil"
+  ]
+}

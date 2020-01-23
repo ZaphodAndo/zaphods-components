@@ -1,0 +1,10 @@
+.burger-menu {
+  cursor: pointer;
+}
+
+hr {
+  height: 2px;
+  width: 30px;
+  background-color: aqua;
+  border: none;
+}
