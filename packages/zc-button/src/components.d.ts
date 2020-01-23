@@ -10,7 +10,11 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface ZcButton {}
+  interface ZcButton {
+    'buttonBackground': string;
+    'buttonText': string;
+    'buttonTextStyle': string;
+  }
 }
 
 declare global {
@@ -27,7 +31,11 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface ZcButton {}
+  interface ZcButton {
+    'buttonBackground'?: string;
+    'buttonText'?: string;
+    'buttonTextStyle'?: string;
+  }
 
   interface IntrinsicElements {
     'zc-button': ZcButton;

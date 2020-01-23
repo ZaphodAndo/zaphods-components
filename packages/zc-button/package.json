@@ -2,8 +2,8 @@
   "name": "zc-button",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
-  "main": "dist/zc-button.js",
-  "module": "dist/zc-button.mjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "es2015": "dist/esm/zc-button.mjs",
   "es2017": "dist/esm/zc-button.mjs",
   "types": "dist/types/index.d.ts",
@@ -29,5 +29,10 @@
     "type": "git",
     "url": "https://github.com/ZaphodAndo/zaphods-components",
     "directory": "packages/zc-button"
-  }
+  },
+  "keywords": [
+    "web component",
+    "button",
+    "stencil"
+  ]
 }

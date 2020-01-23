@@ -8,11 +8,11 @@ This is a button with a nice hover animation
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `first`  | `first`   | The first name  | `string` | `undefined` |
-| `last`   | `last`    | The last name   | `string` | `undefined` |
-| `middle` | `middle`  | The middle name | `string` | `undefined` |
+| Property           | Attribute           | Description | Type     | Default     |
+| ------------------ | ------------------- | ----------- | -------- | ----------- |
+| `buttonBackground` | `button-background` |             | `string` | `undefined` |
+| `buttonText`       | `button-text`       |             | `string` | `undefined` |
+| `buttonTextStyle`  | `button-text-style` |             | `string` | `undefined` |
 
 
 ----------------------------------------------
