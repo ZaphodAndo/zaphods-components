@@ -1,6 +1,6 @@
 {
   "name": "zc-button",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "A simple reusable button component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -19,7 +19,9 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "pubGithub": "npm config set registry https://npm.pkg.github.com/@zaphodando && npm publish",
+    "pubNpm": "npm config set registry https://registry.npmjs.org/ && npm publish"
   },
   "devDependencies": {
     "@stencil/core": "^1.8.4"
@@ -27,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZaphodAndo/zaphods-components",
+    "url": "ssh://github.com/ZaphodAndo/zaphods-components.git",
     "directory": "packages/zc-button"
   },
   "keywords": [
